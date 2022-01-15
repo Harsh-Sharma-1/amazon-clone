@@ -1,0 +1,46 @@
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #232F3E;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    gap: 10px;
+}
+
+.footer__logo{
+    margin-top: 20px;
+    width:10vw;
+    max-width:100px;
+}
+
+
+
+.footer__lists{
+    padding-top: 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-top: 0.5px solid rgb(231, 231, 231);
+
+}
+
+.footer__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.footer__list li{
+    margin-bottom:10px ;
+}
+
+.footer__listcontainer{
+    color: #fff;
+}
